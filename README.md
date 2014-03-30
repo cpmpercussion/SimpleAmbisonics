@@ -12,14 +12,8 @@ All I wanted was a simple 3D ambisonic panner and a deocder to an 8 speaker cube
 
 The Pd objects are as follows:
 
-## AmbiPanner~
-Pans a mono source in 3D, azimuth and elevation parameters are entered from -1 to 1.
-
-## AmbiDecoderQuad~
-A first order B-Format decoder for a square speaker array.
-
-## AmbiDecoderCube~
-A first order B-Format decoder for a cubic speaker array.
-
+- *AmbiPanner~* Pans a mono source in 3D, azimuth and elevation parameters are entered from -1 to 1.
+- *AmbiDecoderQuad~* A first order B-Format decoder for a square speaker array.
+- *AmbiDecoderCube~* A first order B-Format decoder for a cubic speaker array.
 
 I'm not sure anybody should use these for any reason, but if you want to help improve them, jump in.
