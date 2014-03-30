@@ -1,0 +1,30 @@
+#N canvas 284 245 379 586 10;
+#X declare -path .;
+#X obj -1 294 noise~;
+#X obj -3 320 *~ 0.05;
+#X obj -2 15 declare -path .;
+#X obj -3 349 AmbiPanner~ 0 0;
+#X obj -2 422 AmbiDecoderQuad~;
+#X obj 6 498 dac~ 1 2 3 4;
+#X obj 48 212 hsl 128 15 -1 1 0 0 empty empty Azimuth -2 -8 0 10 -4034
+-1 -1 6200 1;
+#X obj 102 76 vsl 15 128 -1 1 0 0 empty empty Elevation 0 -9 0 10 -257985
+-1 -1 6300 1;
+#X text 151 87 Elevation and Azimuth are both measured from -1 to 1
+;
+#X floatatom 56 243 5 0 0 0 - - -;
+#X floatatom 123 191 5 0 0 0 - - -;
+#X connect 0 0 1 0;
+#X connect 1 0 3 0;
+#X connect 3 0 4 0;
+#X connect 3 1 4 1;
+#X connect 3 2 4 2;
+#X connect 3 3 4 3;
+#X connect 4 0 5 0;
+#X connect 4 1 5 1;
+#X connect 4 2 5 2;
+#X connect 4 3 5 3;
+#X connect 6 0 3 1;
+#X connect 6 0 9 0;
+#X connect 7 0 3 2;
+#X connect 7 0 10 0;
