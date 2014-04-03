@@ -1,7 +1,9 @@
+![Example of AmbiPanner~ and AmbiDecoderCube~ working in Pure Data](https://github.com/cpmpercussion/SimpleAmbisonics/raw/master/pd-example.jpg)
+
 SimpleAmbisonics
 ================
 
-Some simple (and bad) Pd objects for 3D ambisonics. They don't work very well!
+Some simple (and bad) Pd objects for 3D ambisonics.
 
 All I wanted was a simple 3D ambisonic panner and a deocder to an 8 speaker cube - available examples didn't seem to work, so I'm making my own pure-Pd emergency solution for doing a little bit of 3D surround. See [Wikipedia](http://en.wikipedia.org/wiki/Ambisonics) for basic details of this terrible implementation, more detailed information about making Ambisonic decoders is in the appendix of this great paper:
 
